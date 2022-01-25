@@ -12,7 +12,7 @@ Basic Usage
 Authorization Code Grant
 ------------------------
 
-The following example uses the out-of-the-box `GenericProvider` provided by this library. If you're looking for a specific provider client (e.g., Facebook, Google, GitHub, etc.), take a look at our [list of provider client libraries](/providers/league/). **HINT: You're probably looking for a specific provider client.**
+The following example uses the out-of-the-box `GenericProvider` provided by this library. If you're looking for a specific provider client (e.g., Facebook, Google, GitHub, etc.), take a look at our [list of provider client libraries](/docs/providers/league.md). **HINT: You're probably looking for a specific provider client.**
 
 The *authorization code* grant type is the most common grant type used when authenticating users with a third-party service. This grant type utilizes a *client* (this library), a *service provider* (the server), and a *resource owner* (the account with credentials to a protected—or owned—resource) to request access to resources owned by the user. This is often referred to as _3-legged OAuth_, since there are three parties involved.
 
